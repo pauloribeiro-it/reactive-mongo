@@ -1,6 +1,6 @@
-package api.repository;
+package reativo.repository;
 
-import api.entity.RandomNumber;
+import reativo.entity.RandomNumber;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.config.EnableReactiveMongoRepositories;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;

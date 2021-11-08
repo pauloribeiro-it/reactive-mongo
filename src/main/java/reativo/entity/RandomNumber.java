@@ -1,4 +1,4 @@
-package api.entity;
+package reativo.entity;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;

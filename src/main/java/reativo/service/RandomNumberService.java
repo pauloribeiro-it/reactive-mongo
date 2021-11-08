@@ -1,15 +1,13 @@
-package api.service;
+package reativo.service;
 
-import api.entity.RandomNumber;
+import reativo.entity.RandomNumber;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import api.repository.RandomNumberRepository;
-import api.repository.RandomNumbersReactiveRepository;
+import reativo.repository.RandomNumberRepository;
+import reativo.repository.RandomNumbersReactiveRepository;
 import reactor.core.publisher.Flux;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 @Service
 public class RandomNumberService {
