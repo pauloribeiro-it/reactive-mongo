@@ -2,10 +2,9 @@ package reativo.repository;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.stereotype.Repository;
+import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 import reativo.entity.RandomNumber;
 
-@Repository
-//@EnableMongoRepositories
+@EnableMongoRepositories
 public interface RandomNumberRepository extends MongoRepository<RandomNumber, ObjectId> {
 }
